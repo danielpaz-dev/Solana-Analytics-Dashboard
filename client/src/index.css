@@ -1,0 +1,16 @@
+/* client/src/index.css */
+@import "tailwindcss";
+
+@theme {
+  --color-dark-bg: #0b0e11;
+  --color-dark-card: #151a20;
+  --color-solana-green: #14F195;
+  --color-solana-purple: #9945FF;
+}
+
+body {
+  background-color: var(--color-dark-bg);
+  color: #f3f4f6;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  margin: 0;
+}
